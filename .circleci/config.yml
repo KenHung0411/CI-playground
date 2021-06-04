@@ -23,7 +23,7 @@ jobs:
           command: |
             export PYTHONPATH=/home/circleci/repo
             echo $PYTHONPATH
-            echo $LS
+            echo $ls
             echo $PWD
 
       # Step 3: run linter and tests
