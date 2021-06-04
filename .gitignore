@@ -1,1 +1,7 @@
 .env
+src/data/__pycache__/
+src/features/__pycache__/
+src/models/__pycache__/
+tests/data/__pycache__/
+tests/features/__pycache__/
+tests/models/__pycache__/
