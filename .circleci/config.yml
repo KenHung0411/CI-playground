@@ -21,6 +21,7 @@ jobs:
       - run:
           name: set up env
           command: |
+            echo $PWD
             export PYTHONPATH=$PWD
 
       # Step 3: run linter and tests
