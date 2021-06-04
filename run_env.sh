@@ -1,1 +1,5 @@
-export PYTHONPATH="/Users/kenhung/Google Drive/python/real_workshop/pytest_playground"
+#!/bin/sh
+
+export PYTHONPATH="$PWD"
+
+echo $PYTHONPATH
